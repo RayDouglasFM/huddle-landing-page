@@ -59,12 +59,14 @@ main{
     color: var(--bk-color);
     border: none;
     border-radius: 50px;
+    
+    transition:-0.3s ease-in-out;
 }
 
 .conteudo .btn:hover{
     color: #fff;
     background-color: var(--bk-itens);
-    transition: 0.5 ;
+    transition: 0.5s ease-in-out ;
 }
 
 footer{
@@ -94,4 +96,5 @@ footer{
 ul li i:hover{
     color: var(--bk-itens);
     border: 1px solid var(--bk-itens);
+    transition: 0.3s ease-in-out;
 }
